@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# print "Best School" with "while"
+# print "Hi" before "Best School" at 9th line
+
+x=0
+while [ $x -lt 10 ]
+do
+  if [ $x -eq 9 ]
+  then
+    echo "Hi"
+  fi
+  echo "Best School"
+  (( x++ ))
+done
