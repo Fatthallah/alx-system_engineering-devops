@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# xxxxxxxx
+# xxxxxxxx
+# xxxxxxxx
+
+while IFS=':' read -r username password uid gid info home shell; do
+# xxxxxxxx
+  echo "The user $username is part of the $gid gang,"\
+  # xxxxxxxx
+  "lives in $home and rides $shell."\
+  # xxxxxxxx
+  "$uid's place is protected by the passcode $password,"\
+  # xxxxxxxx
+  "more info about the user here: $info"
+  # xxxxxxxx
+done < "/etc/passwd"
