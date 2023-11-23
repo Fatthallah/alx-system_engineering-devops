@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# xxxxx
+
+x=0
+while [ $x -le 12 ]
+do
+  echo "x: $x"
+  y=1
+  while [ $y -le 59 ]
+  do
+    echo "$y"
+    (( y++ ))
+  done
+  (( x++ ))
+done
