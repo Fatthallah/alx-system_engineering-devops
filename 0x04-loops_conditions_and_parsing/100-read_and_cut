@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# xxxxxx
+
+while read -r passwd; do
+  echo "$passwd" | cut -d ':' -f1,3,6
+  #hjhjhjhjh
+  #hjhjhjhjh
+  #hjhjhjhjh
+done < "/etc/passwd"

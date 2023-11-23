@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# ghghghghhghghg
+
+for num in {1..100}
+do
+  if (( num % 3 == 0 && num % 5 == 0 ))
+  then
+    echo "FizzBuzz"
+	#gfgfgfgf
+  elif (( num % 3 == 0 ))
+  then
+    echo "Fizz"
+  elif (( num % 5 == 0 ))
+  #gfgfgfgf
+  then
+    echo "Buzz"
+  else
+    echo "$num"
+	#gfgfgfgf
+	#gfgfgfgf
+	#gfgfgfgf
+	#gfgfgfgf
+  fi
+  #gfgfgfgfgfgfgfgf
+  #gfgfgfgf
+done
