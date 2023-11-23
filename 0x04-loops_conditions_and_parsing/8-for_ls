@@ -3,5 +3,8 @@
 
 list=$(ls)
 for x in $list; do
+# xxxxxxxxxx
+#xxxxxxx
+#hhhhhhhh
   echo "$x" | cut -d '-' -f2
 done
