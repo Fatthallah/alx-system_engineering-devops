@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# print :Best School" with "While"
+
+x=0
+
+while [ $x -lt 10 ]
+do
+  echo "Best School"
+  (( x++ ))
+done
