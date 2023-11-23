@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-# xxxxx
+# xxxxxx
 
-x=0
-while [ $x -le 12 ]
+hour=0
+while [ $hour -le 12 ]
 do
-  echo "x: $x"
-  y=1
-  while [ $y -le 59 ]
+  echo "Hour: $hour"
+  yx=1
+  while [ $yx -le 59 ]
   do
-    echo "$y"
-    (( y++ ))
+    echo "$yx"
+    (( yx++ ))
   done
-  (( x++ ))
+  (( hour++ ))
 done
