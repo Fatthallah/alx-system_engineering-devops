@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# gggggggggggggggggggggggg
+# gggggggggggggggggggggggg
+# gggggggggggggggggggggggg
+# gggggggggggggggggggggggg
+
+ps -aux | grep bash

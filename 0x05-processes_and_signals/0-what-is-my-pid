@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# xxxxxxxxxxxxxx
+# xxxxxxxxxxxxxx
+# xxxxxxxxxxxxxx
+
+echo $$
+
