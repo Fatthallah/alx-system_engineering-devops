@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+# yhhhhhhhhhhhhhhh
+
+pkill -f -SIGKILL 7-highlander
