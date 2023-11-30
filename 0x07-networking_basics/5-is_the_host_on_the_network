@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# The 1st Comment or Documentation
+# The 2nd Comment or Documentation
+# The 3rd Comment or Documentation
+
+if [ $# -eq 0 ]
+then
+  echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
+else
+  ping -c 5 "$1"
+fi
