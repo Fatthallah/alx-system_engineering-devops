@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+
+# The Comment
+cd /etc/nginx/sites-enabled/ || exit;
+
+# The Comment
+rm default;
+
+# THe Comment
+ln -s /etc/nginx/sites-available/default default
+
+# The Comment
+service nginx restart
